@@ -1,0 +1,45 @@
+product_id,name,category,brand,price,rating
+P001,Nike Pegasus 41,Running Shoes,Nike,3590000,4.7
+P002,Adidas Ultraboost 5,Running Shoes,Adidas,4200000,4.6
+P003,Nike Vomero 18,Running Shoes,Nike,3990000,4.8
+P004,New Balance 1080,Sneakers,New Balance,3800000,4.5
+P005,Nike Revolution 7,Running Shoes,Nike,1900000,4.3
+P006,Adidas Duramo SL,Running Shoes,Adidas,2100000,4.2
+P007,Puma Velocity Nitro,Running Shoes,Puma,2800000,4.4
+P008,Nike Air Max 270,Sneakers,Nike,4500000,4.6
+P009,Asics Gel-Nimbus 26,Running Shoes,Asics,4100000,4.7
+P010,Asics Gel-Kayano 31,Running Shoes,Asics,4300000,4.6
+P011,Hoka Clifton 9,Running Shoes,Hoka,3900000,4.8
+P012,Hoka Bondi 8,Running Shoes,Hoka,4400000,4.5
+P013,Puma Deviate Nitro 3,Running Shoes,Puma,3700000,4.5
+P014,New Balance Fresh Foam 880,Running Shoes,New Balance,3300000,4.4
+P015,Adidas Adizero SL,Running Shoes,Adidas,2900000,4.4
+P016,Nike Pegasus Trail 5,Trail Shoes,Nike,3790000,4.5
+P017,Hoka Speedgoat 6,Trail Shoes,Hoka,4200000,4.7
+P018,Adidas Terrex Agravic,Trail Shoes,Adidas,3500000,4.3
+P019,Asics Trabuco 12,Trail Shoes,Asics,3400000,4.4
+P020,Nike Air Force 1,Sneakers,Nike,2900000,4.8
+P021,Adidas Samba OG,Sneakers,Adidas,2700000,4.7
+P022,Puma Suede Classic,Sneakers,Puma,1900000,4.3
+P023,New Balance 550,Sneakers,New Balance,3200000,4.6
+P024,Adidas Stan Smith,Sneakers,Adidas,2400000,4.5
+P025,Nike Dunk Low,Sneakers,Nike,3100000,4.7
+P026,Nike LeBron 22,Basketball Shoes,Nike,5200000,4.6
+P027,Adidas Dame 9,Basketball Shoes,Adidas,3300000,4.2
+P028,Puma MB.04,Basketball Shoes,Puma,3600000,4.4
+P029,Nike Dri-FIT Running Tee,Apparel,Nike,750000,4.5
+P030,Adidas Own The Run Jacket,Apparel,Adidas,1600000,4.4
+P031,Puma Run Favorite Shorts,Apparel,Puma,650000,4.1
+P032,Asics Core Running Tight,Apparel,Asics,900000,4.3
+P033,Nike Pro Training Tank,Apparel,Nike,600000,4.2
+P034,Nike Everyday Cushion Socks 3P,Accessories,Nike,350000,4.6
+P035,Adidas Running Cap,Accessories,Adidas,450000,4.0
+P036,Puma Running Belt,Accessories,Puma,400000,3.9
+P037,Hoka Performance Socks,Accessories,Hoka,380000,4.4
+P038,New Balance Gym Bag,Accessories,New Balance,1200000,4.5
+P039,Asics Novablast 5,Running Shoes,Asics,3500000,4.7
+P040,Nike Pegasus 41 GTX,Running Shoes,Nike,4308000,4.4
+P041,Test Shoe Negative,Running Shoes,Nike,-100000,4.0
+P042,Broken Row,Sneakers,Puma
+P005,Nike Revolution 7 Duplicate,Running Shoes,Nike,1900000,4.3
+P043,Rating Out Of Range,Sneakers,Puma,1500000,5.6

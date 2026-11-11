@@ -1,0 +1,4 @@
+product_id,name,category,brand,price,rating
+P001,Nike Pegasus 41,Running Shoes,Nike,3590000,4.7
+P002,No Price,Running Shoes,Adidas,,4.6
+P003,Negative,Running Shoes,Nike,-5,4.8

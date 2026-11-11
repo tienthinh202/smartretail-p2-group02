@@ -1,0 +1,9 @@
+feedback_id,timestamp,store_id,product_id,nps_score,comment
+F001,2026-08-20 10:16,S001,P005,9,nhan vien tu van rat nhiet tinh
+F002,2026-08-20 11:02,S001,P001,6,phai doi lau o quay tinh tien
+F003,2026-08-20 14:23,S001,P003,3,het hang size 42 den lan thu hai roi
+F004,2026-08-21 09:41,S001,P002,10,gia tot khuyen mai ro rang
+F005,2026-08-21 15:12,S001,P008,4,khong tim thay nhan vien de hoi
+F006,2026-08-21 16:30,S001,P005,8,cho thu giay hoi chat
+F007,2026-08-22 10:05,S001,P003,2,van het hang that vong
+F008,2026-08-22 13:47,S001,P007,9,thanh toan rat nhanh

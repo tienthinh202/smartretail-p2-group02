@@ -1,17 +1,23 @@
 ## Task
-T01 – Repo skeleton
+<!-- Task ID from the task assignment table, e.g. T05 – Read customer_events.csv. PR title must start with the task ID: "T05: ..." -->
 
 ## What
-Add folder structure (src, data, tests, docs), .gitignore, PR template, lecturer data and README with the task assignment table.
+<!-- 1–3 sentences, e.g. Add checkEventLine() and loadEvents(); skip SCAN, 25:61, P999 lines with a warning. -->
 
 ## Requirement in the brief
-Submission guide section 2.2 (required folder structure), 2.4 (PR template), 2.5 (task assignment table); milestone M1.
+<!-- e.g. P2 section 4, group interleaved sessions; TC02, TC04 -->
 
 ## Checks
-- [x] Task assignment table in README
-- [x] Folder structure matches section 2.2
-- [x] Lecturer data copied without editing (data/sample, data/full, data/edge)
-- [ ] Flowchart: not needed (no code)
+- [ ] Flowchart + pseudocode in `docs/flowcharts/Txx-...md`, matching the code (code tasks)
+- [ ] Task assignment table in README updated
+- [ ] Builds with `-Wall -Wextra`, no warnings
+- [ ] `data/sample` output matches expected
+- [ ] Ran `data/full` / `data/edge` (paste the commands and results below)
+- [ ] Updated `tests/test_cases.md` if there are new tests
+- [ ] Code is inside my own area of `src/main.cpp` (`// ===== Txx – ... =====`)
+- [ ] Does not open `identity_links.csv`
+
+<paste the commands you ran and 5–10 lines of output>
 
 ## AI tools / references
-Claude (Anthropic): suggested task breakdown, README layout, .gitignore and folder skeleton. The team leader reviewed and edited.
+<!-- "None", or state which tool, what you asked, and which part of this PR it suggested. -->

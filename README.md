@@ -2,7 +2,7 @@
 
 | ID | Task | Function / file | Assignee | Reviewer | Flowchart | PR |
 | --- | --- | --- | --- | --- | --- | --- |
-| T01 | Repo skeleton + README | `.gitignore`, PR template, `README.md` | Triển | Yến | not needed | [#2] (https://github.com/tienthinh202/smartretail-p2-group02/pull/2) |
+| T01 | Repo skeleton + README | `.gitignore`, PR template, `README.md` | Triển | Yến | not needed | [#2](https://github.com/tienthinh202/smartretail-p2-group02/pull/2) |
 | T02 | Convert HH:MM to minutes (core function) | `toMinutes()` | Yến | Triển | yes | |
 | T03 | Structs + read products.csv + main | `splitCsv()`, `loadProducts()`, `main()` | Triển | Trâm | yes | |
 | T04 | Sort + recursive binary search | `sortProducts()`, `binarySearch()`, `findProduct()` | Trâm | Kiên | yes| |

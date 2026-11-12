@@ -7,7 +7,7 @@
 using namespace std;
 
 // Each member writes only inside their own section.
-// Function names and parameters follow docs/flowcharts/00-thiet-ke-chung.md
+// TODO: function names and parameters will follow docs/flowcharts/00-thiet-ke-chung.md (not added yet)
 
 // ===== T03 – structs + function prototypes (Trien) =====
 

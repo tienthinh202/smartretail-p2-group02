@@ -2,14 +2,14 @@
 
 | ID | Task | Function / file | Assignee | Reviewer | Flowchart | PR |
 | --- | --- | --- | --- | --- | --- | --- |
-| T01 | Repo skeleton + README | `.gitignore`, PR template, `README.md` | Triển | Yến | not needed | #2 |
+| T01 | Repo skeleton + README | `.gitignore`, PR template, `README.md` | Triển | Yến | not needed | [#2] (https://github.com/tienthinh202/smartretail-p2-group02/pull/2) |
 | T02 | Convert HH:MM to minutes (core function) | `toMinutes()` | Yến | Triển | yes | |
 | T03 | Structs + read products.csv + main | `splitCsv()`, `loadProducts()`, `main()` | Triển | Trâm | yes | |
 | T04 | Sort + recursive binary search | `sortProducts()`, `binarySearch()`, `findProduct()` | Trâm | Kiên | yes| |
 | T05 | Read and validate customer_events.csv | `isValidEvent()`, `checkEventLine()`, `loadEvents()` | Triển | Yến | yes | |
 | T06 | Group events into sessions | `findOrCreateSession()`, `applyEvent()` | Kiên | Triển | yes | |
 | T07 | Dwell time + average | `dwellTime()`, `averageDwell()` | Kiên | Trâm | yes| |
-| T08 | Conversion rates + store totals | `percent()`, `computeTotals()` | Yến | Kiên | yes |
+| T08 | Conversion rates + store totals | `percent()`, `computeTotals()` | Yến | Kiên | yes | |
 | T09 | Interest score per product | `findOrCreateInterest()`, `addInterest()` | Kiên | Yến | yes | |
 | T10 | Sort interest scores | `comesBefore()`, `sortInterest()` | Trâm | Triển | yes| |
 | T11 | Print session table + totals | `printSessionTable()`, `printTotals()` | Yến | Trâm | yes | |

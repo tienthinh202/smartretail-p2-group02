@@ -1,0 +1,3 @@
+session_id,customer_id,linked_at,link_source
+ANON-8821,C001,10:15,loyalty_scan_at_pos
+ANON-8823,C002,11:14,phone_at_checkout

@@ -1,0 +1,126 @@
+feedback_id,timestamp,store_id,product_id,nps_score,comment
+F001,2026-08-20 10:16,S001,P005,9,nhan vien tu van rat nhiet tinh
+F002,2026-08-20 11:02,S001,P001,6,phai doi lau o quay tinh tien
+F003,2026-08-20 14:23,S001,P003,3,het hang size 42 den lan thu hai roi
+F004,2026-08-21 09:41,S001,P002,10,gia tot khuyen mai ro rang
+F005,2026-08-21 15:12,S001,P008,4,khong tim thay nhan vien de hoi
+F006,2026-08-21 16:30,S001,P005,8,cho thu giay hoi chat
+F007,2026-08-22 10:05,S001,P003,2,van het hang that vong
+F008,2026-08-22 13:47,S001,P007,9,thanh toan rat nhanh
+F009,2026-08-22 08:44,S001,-,6,xep hang qua dong
+F010,2026-08-22 09:00,S002,P001,2,phai doi lau moi duoc thu giay
+F011,2026-08-22 10:18,S003,P021,6,mau minh thich het hang
+F012,2026-08-22 11:52,S001,P037,10,nhan vien than thien
+F013,2026-08-22 12:49,S002,P032,3,phai doi lau moi duoc thu giay
+F014,2026-08-22 14:18,S003,-,3,san nha ban va tron
+F015,2026-08-22 14:28,S002,-,0,cho thu giay hoi chat
+F016,2026-08-22 14:53,S001,P031,5,het hang size 42 va phai doi lau
+F017,2026-08-22 15:38,S002,-,3,phai doi lau moi duoc thu giay
+F018,2026-08-22 16:26,S002,P026,7,het hang size 42 va phai doi lau
+F019,2026-08-22 17:16,S002,P030,0,khuyen mai ghi mot dang tinh mot neo
+F020,2026-08-22 19:57,S002,P036,3,nhan vien thieu kien nhan
+F021,2026-08-22 20:03,S002,P030,9,duoc tu van chon size rat chuan
+F022,2026-08-23 08:24,S001,P038,7,da mua cho con trai
+F023,2026-08-23 08:55,S003,P017,7,xep hang hoi lau nhung nhan vien vui ve
+F024,2026-08-23 10:49,S001,P031,5,het hang size 42 va phai doi lau
+F025,2026-08-23 11:28,S003,P018,6,san nha ban va tron
+F026,2026-08-23 12:28,S001,P017,6,khong con size 43 phai ve tay khong
+F027,2026-08-23 12:31,S003,P024,2,doi lau qua bo ve
+F028,2026-08-23 17:39,S003,P021,5,het hang size 42 va phai doi lau
+F029,2026-08-23 18:24,S003,P029,7,giay dep
+F030,2026-08-23 19:47,S002,P012,9,khuyen mai hap dan
+F031,2026-08-23 20:55,S002,-,5,phong thu do ban qua
+F032,2026-08-24 10:26,S003,P025,9,cua hang sach se thoang mat
+F033,2026-08-24 10:47,S001,-,6,tinh tien sai phai lam lai
+F034,2026-08-24 11:09,S001,P010,4,goi mai khong co nhan vien
+F035,2026-08-24 14:26,S002,P004,3,phong thu do ban qua
+F036,2026-08-24 15:55,S002,P009,3,khuyen mai ghi mot dang tinh mot neo
+F037,2026-08-24 16:40,S002,P040,2,lan thu ba den van het hang
+F038,2026-08-24 18:03,S002,-,9,cua hang sach se thoang mat
+F039,2026-08-25 08:18,S001,P008,9,nhan vien than thien
+F040,2026-08-25 09:26,S001,-,6,phai doi lau moi duoc thu giay
+F041,2026-08-25 11:04,S001,P016,9,nhan vien tu van rat nhiet tinh
+F042,2026-08-25 13:44,S001,P009,9,duoc tu van chon size rat chuan
+F043,2026-08-25 15:51,S003,-,6,tinh tien sai phai lam lai
+F044,2026-08-25 18:07,S001,P029,9,cua hang sach se thoang mat
+F045,2026-08-25 18:09,S003,P018,5,nhan vien thieu kien nhan
+F046,2026-08-25 19:18,S001,P035,6,cho thu giay hoi chat
+F047,2026-08-25 19:54,S003,P021,2,HET HANG SIZE 43 THAT VONG
+F048,2026-08-25 21:29,S001,P023,10,nhan vien tu van rat nhiet tinh
+F049,2026-08-25 21:56,S001,P029,9,khuyen mai hap dan
+F050,2026-08-26 08:06,S002,P003,3,goi mai khong co nhan vien
+F051,2026-08-26 08:48,S002,-,10,tinh tien nhanh gon
+F052,2026-08-26 09:42,S003,P013,9,da mua cho con trai
+F053,2026-08-26 11:16,S003,P040,6,khong ap dung duoc khuyen mai
+F054,2026-08-26 11:50,S001,P003,5,het hang size 42 va phai doi lau
+F055,2026-08-26 12:21,S002,P004,9,cua hang sach se thoang mat
+F056,2026-08-26 12:53,S001,P040,9,tinh tien nhanh gon
+F057,2026-08-26 17:43,S001,P022,9,giay dep
+F058,2026-08-26 17:56,S002,P002,8,da mua cho con trai
+F059,2026-08-26 18:50,S001,-,9,tinh tien nhanh gon
+F060,2026-08-26 21:14,S001,-,6,tinh tien sai phai lam lai
+F061,2026-08-26 21:47,S001,P039,10,cua hang sach se thoang mat
+F062,2026-08-26 21:53,S001,-,3,phong thu do ban qua
+F063,2026-08-27 08:55,S001,P019,6,khong tim thay nhan vien de hoi
+F064,2026-08-27 14:19,S001,P010,0,khuyen mai ghi mot dang tinh mot neo
+F065,2026-08-27 14:33,S001,P037,9,tinh tien nhanh gon
+F066,2026-08-27 14:46,S003,P011,6,cho minh xin them tui
+F067,2026-08-27 15:40,S001,P005,4,het hang size 44 roi
+F068,2026-08-27 16:10,S002,P029,2,khong tim thay nhan vien de hoi
+F069,2026-08-27 17:09,S001,P027,5,goi mai khong co nhan vien
+F070,2026-08-27 18:15,S001,P018,0,nhan vien thieu kien nhan
+F071,2026-08-27 19:07,S001,P022,1,khuyen mai ghi mot dang tinh mot neo
+F072,2026-08-27 21:11,S002,P033,10,gia tot khuyen mai ro rang
+F073,2026-08-27 21:23,S001,P010,1,khuyen mai ghi mot dang tinh mot neo
+F074,2026-08-28 08:05,S002,P029,9,duoc tu van chon size rat chuan
+F075,2026-08-28 09:07,S002,P037,6,khong ap dung duoc khuyen mai
+F076,2026-08-28 11:05,S002,P002,3,khong con size 38
+F077,2026-08-28 13:20,S001,P039,0,khong ap dung duoc khuyen mai
+F078,2026-08-28 14:35,S002,P031,9,thanh toan rat nhanh
+F079,2026-08-28 15:34,S001,P017,9,nhan vien tu van rat nhiet tinh
+F080,2026-08-28 16:25,S003,P029,9,tinh tien nhanh gon
+F081,2026-08-28 16:25,S003,P003,0,khong ap dung duoc khuyen mai
+F082,2026-08-28 17:09,S001,P017,6,het hang size 43 roi
+F083,2026-08-28 17:56,S002,P015,8,cho minh xin them tui
+F084,2026-08-28 18:03,S001,-,9,tinh tien nhanh gon
+F085,2026-08-28 19:16,S002,P040,3,lan thu ba den van het hang
+F086,2026-08-28 19:21,S003,P034,10,duoc tu van chon size rat chuan
+F087,2026-08-28 19:49,S002,P011,9,cua hang sach se thoang mat
+F088,2026-08-28 21:22,S001,P002,1,may thanh toan the bi loi
+F089,2026-08-28 21:53,S001,P013,9,binh thuong
+F090,2026-08-29 09:33,S002,P039,10,duoc tu van chon size rat chuan
+F091,2026-08-29 10:00,S003,-,6,phai doi lau moi duoc thu giay
+F092,2026-08-29 11:32,S003,P030,1,san nha ban va tron
+F093,2026-08-29 11:38,S003,P033,9,thanh toan rat nhanh
+F094,2026-08-29 12:28,S001,P027,9,cua hang sach se thoang mat
+F095,2026-08-29 12:38,S001,-,10,thanh toan rat nhanh
+F096,2026-08-29 14:02,S003,P003,5,khong ap dung duoc khuyen mai
+F097,2026-08-29 14:34,S003,P005,5,nhan vien tu van tot nhung thanh toan cham
+F098,2026-08-29 15:24,S002,P010,9,thanh toan rat nhanh
+F099,2026-08-29 15:38,S002,P031,9,thanh toan rat nhanh
+F100,2026-08-29 15:50,S002,P028,6,xep hang hoi lau nhung nhan vien vui ve
+F101,2026-08-29 16:14,S001,P035,9,gia tot khuyen mai ro rang
+F102,2026-08-29 18:13,S002,P032,9,se quay lai
+F103,2026-08-29 18:29,S001,P017,9,gia tot khuyen mai ro rang
+F104,2026-08-29 19:02,S002,P039,6,se quay lai
+F105,2026-08-29 19:36,S003,P011,1,khuyen mai ghi mot dang tinh mot neo
+F106,2026-08-29 19:45,S001,P003,10,tinh tien nhanh gon
+F107,2026-08-29 20:51,S001,P005,3,doi lau qua bo ve
+F108,2026-08-29 21:19,S001,P008,10,cua hang sach se thoang mat
+F109,2026-08-29 21:24,S002,P040,5,xep hang hoi lau nhung nhan vien vui ve
+F110,2026-08-30 09:01,S003,-,6,cho thu giay hoi chat
+F111,2026-08-30 09:23,S001,P031,7,da mua cho con trai
+F112,2026-08-30 11:28,S001,-,2,san nha ban va tron
+F113,2026-08-30 12:27,S003,-,6,may thanh toan the bi loi
+F114,2026-08-30 13:40,S003,P017,2,nhan vien thieu kien nhan
+F115,2026-08-30 15:08,S002,P022,6,hoi chatbot cua hang khong tra loi
+F116,2026-08-30 17:11,S002,P037,5,may thanh toan the bi loi
+F117,2026-08-30 17:56,S002,P026,2,lan thu ba den van het hang
+F118,2026-08-30 18:10,S001,-,4,phai doi lau moi duoc thu giay
+F119,2026-08-30 19:14,S002,P009,1,tinh tien sai phai lam lai
+F120,2026-08-30 19:32,S002,P020,1,phong thu do ban qua
+F121,2026-08-30 20:01,S001,P019,9,nhan vien than thien
+F122,2026-08-30 20:55,S001,P029,6,nhan vien thieu kien nhan
+F123,2026-08-30 20:00,S001,P001,11,diem vuot thang
+F124,2026-08-30 20:10,S002,P002,abc,diem khong phai so
+F125,2026-08-30 20:20,S003,P999,5,san pham la

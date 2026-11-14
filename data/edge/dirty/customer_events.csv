@@ -1,0 +1,4 @@
+session_id,timestamp,event,product_id
+X1,10:00,ENTER,-
+X1,09:00,EXIT,-
+X2,10:00,VIEW,P001

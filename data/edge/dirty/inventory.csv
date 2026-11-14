@@ -1,0 +1,4 @@
+store_id,product_id,stock
+S001,P001,-1
+S001,P002,abc
+S001,P001,4

@@ -1,0 +1,5 @@
+promo_id,product_id,discount_percent,min_quantity
+PR001,P001,10,1
+PR002,P002,15,1
+PR003,P005,5,2
+PR004,P008,20,1

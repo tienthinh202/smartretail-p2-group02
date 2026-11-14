@@ -1,0 +1,3 @@
+date,store_id,visitors,orders,revenue,target_revenue,stockout_products
+2026-08-20,S001,0,0,0,100000000,0
+2026-08-21,S001,10,20,5,0,0

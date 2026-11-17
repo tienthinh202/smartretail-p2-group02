@@ -87,4 +87,4 @@ END FUNCTION
 ```
 
 ## 3. Flowchart 
-![Flowchart of toMinutes](https://github.com/tienthinh202/smartretail-p2-group02/blob/feature/t02-to-minutes/docs/images/T02%20_%20toMinutes%20_%20Flowchart.drawio.png?raw=true)
+![Flowchart of toMinutes](T02-to-minutes.drawio.png)

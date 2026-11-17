@@ -15,7 +15,7 @@ bool toMinutes(const string& text, int& minutes, string& error);
 - Valid hours range from 00 to 23, and valid minutes range from 00 to 59
 - Whitespace and extra characters are not allowed
 
-## Output
+### Output
 - If valid: return `true`, set `minutes = hour * 60 + minute`,
   and set `error` to an empty string
 - If invalid: return `false`, store the reason in `error`,

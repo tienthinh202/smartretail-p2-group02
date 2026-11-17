@@ -1,6 +1,6 @@
 # T02 – Convert HH:MM to Minutes
 
-- Assigner: Yến
+- Assignee: Yến
 - Reviewer: Triển
 
 ## 1. Function specification

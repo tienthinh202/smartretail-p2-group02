@@ -39,7 +39,7 @@ bool toMinutes(const string& text, int& minutes, string& error) {
     int hour = (hourText[0] - '0') * 10 + (hourText[1] - '0'); // - '0': turn a digit character to a number: '0' start with 48, cont, ex: '5' is 53, 53 - 48 is exactly 5, if it dont have - '0' the number will be 53.
     int minute = (minuteText[0] - '0') * 10 + (minuteText[1] - '0');
 
-    int (hour > 23) {
+    if (hour > 23) {
          error = "Hour must be between 00 and 23";
          return false;
     }

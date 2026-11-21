@@ -68,26 +68,6 @@ END FUNCTION
 
 ## 3. Flowchart
 
-```mermaid
-flowchart TD
-    A([Start]) --> B{"event.type = ENTER?"}
-    B -- Yes --> B1["session.enterTime ← event.minutes"]
-    B -- No --> C{"event.type = EXIT?"}
-    C -- Yes --> C1["session.exitTime ← event.minutes"]
-    C -- No --> D{"event.type = VIEW?"}
-    D -- Yes --> D1["add event.productId to session.viewed"]
-    D -- No --> E{"event.type = ADD_TO_CART?"}
-    E -- Yes --> E1["add event.productId to session.carted"]
-    E -- No --> F{"event.type = PURCHASE?"}
-    F -- Yes --> F1["add event.productId to session.purchased"]
-    F -- No --> G["error ← Unknown event type"]
-    G --> H["RETURN false"]
-    B1 --> S["error ← empty string"]
-    C1 --> S
-    D1 --> S
-    E1 --> S
-    F1 --> S
-    S --> T["RETURN true"]
-    H --> Z([End])
-    T --> Z
+<img width="349" height="1032" alt="T06-applyevent" src="https://github.com/user-attachments/assets/5a22e8d0-9ea7-4112-8318-68cfbc6311f0" />
+
 ```

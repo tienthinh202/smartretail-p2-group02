@@ -45,7 +45,7 @@ bool toMinutes(const string& text, int& minutes, string& error) {
     }
 
     if (minute > 59) {
-        error = "Minute must bewteen 00 and 59";
+        error = "Minute must be bewteen 00 and 59";
         return false;
     }
 

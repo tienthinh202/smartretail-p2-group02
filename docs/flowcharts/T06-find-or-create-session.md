@@ -60,23 +60,7 @@ FUNCTION findOrCreateSession(sessions, REFERENCE sessionCount, id)
 
 END FUNCTION
 ```
+## 3.Flowchart
+<img width="657" height="842" alt="T06-find-or-create-session" src="https://github.com/user-attachments/assets/23c4542a-827e-412c-a830-b33bef1d7436" />
 
-## 3. Flowchart
-
-```mermaid
-flowchart TD
-    A([Start]) --> B["i ← 0"]
-    B --> C{"i < sessionCount?"}
-    C -- Yes --> D{"sessions[i].id = id?"}
-    D -- Yes --> E["RETURN i"]
-    D -- No --> F["i ← i + 1"]
-    F --> C
-    C -- No --> G{"sessionCount = MAX_SESSIONS?"}
-    G -- Yes --> H["RETURN -1"]
-    G -- No --> I["sessions[sessionCount].id ← id<br/>set other fields to initial values"]
-    I --> J["sessionCount ← sessionCount + 1"]
-    J --> K["RETURN sessionCount - 1"]
-    E --> Z([End])
-    H --> Z
-    K --> Z
 ```

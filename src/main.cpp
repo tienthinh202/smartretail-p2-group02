@@ -126,21 +126,23 @@ bool loadProducts(const string& path, vector<Product>& products) {
 
     while (getline(fin, line)) {
         lineNo = lineNo + 1;
-        vector<string> fields = splitCsv(line);
+        if (line != "" && line != "\r") {
+            vector<string> fields = splitCsv(line);
 
-        if (fields.size() != 6) {
-            cerr << "Warning: products.csv line " << lineNo << ": expected 6 columns, found " << fields.size() << " -> skipped" << endl;
-        } else if (containsProduct(products, fields[0])) {
-            cerr << "Warning: products.csv line " << lineNo << ": duplicate product_id " << fields[0] << " -> skipped" << endl;
-        } else {
-            Product p;
-            p.id = fields[0];
-            p.name = fields[1];
-            p.category = fields[2];
-            p.brand = fields[3];
-            p.price = fields[4];
-            p.rating = fields[5];
-            products.push_back(p);
+            if (fields.size() != 6) {
+                cerr << "Warning: products.csv line " << lineNo << ": expected 6 columns, found " << fields.size() << " -> skipped" << endl;
+            } else if (containsProduct(products, fields[0])) {
+                cerr << "Warning: products.csv line " << lineNo << ": duplicate product_id " << fields[0] << " -> skipped" << endl;
+            } else {
+                Product p;
+                p.id = fields[0];
+                p.name = fields[1];
+                p.category = fields[2];
+                p.brand = fields[3];
+                p.price = fields[4];
+                p.rating = fields[5];
+                products.push_back(p);
+            }
         }
     }
     return true;

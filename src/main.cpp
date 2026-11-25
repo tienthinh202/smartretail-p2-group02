@@ -149,6 +149,41 @@ bool loadProducts(const string& path, vector<Product>& products) {
 }
 
 // ===== T04 – sortProducts, binarySearch, findProduct (Tram) =====
+void sortProducts(vector<Product>& products) {
+    int i = 1;
+    while (i < (int)products.size()){
+        Product key = products[i];
+        int j = i - 1;
+        while (j >=0 && products[j].id > key.id) {
+            products[j + 1]= products[j];
+            j = j - 1;
+        }
+        products [j +1] = key;
+        i = i + 1;
+    }
+}
+
+int binarySearch(const vector<Product>& products, const string& id, int lo, int hi) {
+    if (lo > hi) {
+        return -1;
+    }
+    int mid = lo + (hi - lo) / 2;
+    if (products[mid].id == id) {
+        return mid;
+    }
+    int r;
+    if (products[mid].id < id) {
+        r = binarySearch(products, id, mid + 1, hi);
+    } else {
+        r = binarySearch(products, id, lo, mid - 1);
+    }
+    return r;
+}
+
+int findProduct(const vector<Product>& products, const string& id) {
+    int r= binarySearch(products, id, 0, (int)products.size() - 1);
+    return r;
+}
 
 // ===== T05 – isValidEvent, checkEventLine, loadEvents (Trien) =====
 
@@ -182,6 +217,8 @@ int main(int argc, char* argv[]) {
     if (!ok) {
         return 1;
     }
+
+    sortProducts(products);
 
     return 0;
 }

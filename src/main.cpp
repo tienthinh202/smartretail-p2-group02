@@ -230,7 +230,43 @@ int findProduct(const vector<Product>& products, const string& id) {
 // ===== T05 – isValidEvent, checkEventLine, loadEvents (Trien) =====
 
 // ===== T06 – findOrCreateSession, applyEvent (Kien) =====
+int findOrCreateSession(vector<Session>& sessions,
+    const string& id) {
+        int i =0;
 
+        while (i < (int)sessions.size()) {
+            if (sessions[i].id == id) {
+                return i;
+            }
+            i = i + 1;
+        }
+
+        Session s;
+        s.id = id;
+        sessions.push_back(s);
+
+        return (int)sessions.size() -1;
+    }   
+
+    void applyEvent(Session& s, const string& ev, int minutes, const string& pid) {
+        if (ev == "ENTER") {
+            s.enter = minutes;
+        } else if (ev == "EXIT") {
+            s.exit = minutes;
+        } else if (ev == "VIEW") {
+            s.views = s.views + 1;
+            s.viewed.push_back(pid);
+        } else if (ev == "PICK") {
+            s.picks = s.picks + 1; 
+            s.picked.push_back(pid);
+        } else if (ev == "RETURN") {
+            s.returns = s.returns + 1;
+            s.returned.push_back(pid);
+        } else if (ev == "PURCHASE") {
+            s.purchases = s.purchases + 1;
+            s.bought.push_back(pid);
+        }
+    }
 // ===== T07 – dwellTime, averageDwell (Kien) =====
 
 // ===== T08 – percent, computeTotals (Yen) =====
